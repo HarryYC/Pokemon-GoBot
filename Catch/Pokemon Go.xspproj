@@ -1,0 +1,19 @@
+[SOURCE]
+1\SOURCEFILE=C:/Users/Administrator/Documents/xspworkspace/Pokemon Go/xsp/src/main.lua
+2\SOURCEFILE=C:/Users/Administrator/Documents/xspworkspace/Pokemon Go/xsp/src/phoneOP.lua
+size=3
+3\SOURCEFILE=C:/Users/Administrator/Documents/xspworkspace/Pokemon Go/xsp/src/pokeOP.lua
+
+[UI]
+1\UIFILE=C:/Users/Administrator/Documents/xspworkspace/Pokemon Go/xsp/ui/ui.json
+size=1
+
+[RES]
+size=7
+1\RESFILE=C:/Users/Administrator/Documents/xspworkspace/Pokemon Go/xsp/res/egg.png
+2\RESFILE=C:/Users/Administrator/Documents/xspworkspace/Pokemon Go/xsp/res/escape.png
+3\RESFILE=C:/Users/Administrator/Documents/xspworkspace/Pokemon Go/xsp/res/hatchNegg.png
+4\RESFILE=C:/Users/Administrator/Documents/xspworkspace/Pokemon Go/xsp/res/homeBall.png
+5\RESFILE=C:/Users/Administrator/Documents/xspworkspace/Pokemon Go/xsp/res/incubator.png
+6\RESFILE=C:/Users/Administrator/Documents/xspworkspace/Pokemon Go/xsp/res/loading.png
+7\RESFILE=C:/Users/Administrator/Documents/xspworkspace/Pokemon Go/xsp/res/login.png
