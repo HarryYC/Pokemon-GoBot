@@ -1,4 +1,6 @@
 # Pokemon-GoBot
+[![ScreenShot](http://harrycao.info/images/youtube.jpg)](https://www.youtube.com/watch?v=lScF1VsZY6w)
+
 
 This script is able to:
 
