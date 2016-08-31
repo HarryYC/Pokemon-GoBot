@@ -10,10 +10,10 @@ size=1
 
 [RES]
 size=7
-1\RESFILE=C:/Users/Administrator/Documents/xspworkspace/Pokemon Go/xsp/res/escape.png
-2\RESFILE=C:/Users/Administrator/Documents/xspworkspace/Pokemon Go/xsp/res/hatchNegg.png
-3\RESFILE=C:/Users/Administrator/Documents/xspworkspace/Pokemon Go/xsp/res/homeBall.png
-4\RESFILE=C:/Users/Administrator/Documents/xspworkspace/Pokemon Go/xsp/res/incubator.png
-5\RESFILE=C:/Users/Administrator/Documents/xspworkspace/Pokemon Go/xsp/res/loading.png
-6\RESFILE=C:/Users/Administrator/Documents/xspworkspace/Pokemon Go/xsp/res/login.png
-7\RESFILE=C:/Users/Administrator/Documents/xspworkspace/Pokemon Go/xsp/res/egg.png
+1\RESFILE=C:/Users/Administrator/Documents/xspworkspace/Pokemon Go/xsp/res/egg.png
+2\RESFILE=C:/Users/Administrator/Documents/xspworkspace/Pokemon Go/xsp/res/escape.png
+3\RESFILE=C:/Users/Administrator/Documents/xspworkspace/Pokemon Go/xsp/res/hatchNegg.png
+4\RESFILE=C:/Users/Administrator/Documents/xspworkspace/Pokemon Go/xsp/res/homeBall.png
+5\RESFILE=C:/Users/Administrator/Documents/xspworkspace/Pokemon Go/xsp/res/incubator.png
+6\RESFILE=C:/Users/Administrator/Documents/xspworkspace/Pokemon Go/xsp/res/loading.png
+7\RESFILE=C:/Users/Administrator/Documents/xspworkspace/Pokemon Go/xsp/res/login.png

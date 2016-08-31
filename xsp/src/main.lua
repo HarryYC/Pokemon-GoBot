@@ -15,15 +15,15 @@ function gameLogic()
       
       tap(540, 972) --tap on screen to hatch egg
       mSleep(25000)
-      if (isBattle() == true) then
-        tap(136, 173)
-      end
-      mSleep(500)
+
       backToMain()
       checkHatch()
---    else
---      sysLog("no hatching egg")
---      backToMain()
+    elseif (isBattle() == true) then
+						sysLog("Battle")
+						mSleep(1000)		
+		else
+      sysLog("no hatching egg")
+      backToMain()
     end
   end
 end
@@ -44,7 +44,7 @@ function main()
       while (loggedIn() == false) do
         mSleep(500)
         timeOut = timeOut + 1
-				sysLog("timeout: "..timeOut)
+        sysLog("timeout: "..timeOut)
         if (timeOut > 60) then 
           break;
         end
@@ -70,15 +70,23 @@ end
 
 function throwBall()
   local x, y = findColorInRegionFuzzy(0xffffff,100, 300, 1611, 800, 300)
-  if x ~= -1 and y ~= -1 then 
-    sysLog(x.." "..y)
+  if x ~= -1 and y ~= -1 then
+    local i = 2
+    sysLog(y.." "..y * i)
     --swap(553, 1611, 553, y + y / 1.8)
     touchDown(1, 553, 1611)
     mSleep(100)
-    touchMove(1, 553, y + y / 1.8)
+    touchMove(1, 553, y * i)
     mSleep(100)
-    touchUp(1, 553, y + y / 1.8)
+    touchUp(1, 553, y * i)
   end
 end
-
+function fight()
+  while (true) do
+    tap(517,581)
+    mSleep(100)
+  end
+end
 main()
+--throwBall()
+--loggedIn()
